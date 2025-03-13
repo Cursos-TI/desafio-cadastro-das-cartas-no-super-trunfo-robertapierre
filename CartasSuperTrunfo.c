@@ -4,15 +4,19 @@ int main() {
     char estado01;
     char codigo01[4];
     char cidade01[50];
-    int populacao01, pontos_turisticos01;
-    float area01, pib01;
+    int populacao01;
+    float area01;
+    float pib01;
+    int pontos_turisticos01;
 
     //Váriaveis para a segunda carta.
     char estado01;
     char codigo02[4];
     char cidade02[50];
-    int populacao02, pontos_turisticos02;
-    float area02, pib02;
+    int populacao02;
+    float area02;
+    float pib02;
+    int pontos_turisticos02;
 
     //Solicitação dos dados para o usuário, primeira carta.
     printf ("Digite os dados da primeira carta: \n");
