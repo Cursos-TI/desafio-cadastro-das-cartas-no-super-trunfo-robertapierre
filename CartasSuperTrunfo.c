@@ -69,13 +69,4 @@ scanf("%d"), &pontos_turisticos02;
 
     
   return 0;
-
-
-
-
-
-    
-
-    
-    return 0;
 }
