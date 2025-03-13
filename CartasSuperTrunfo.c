@@ -32,11 +32,36 @@ int main() {
     printf ("Digite a area em km²:");
     scanf ("%f"), &area01;
 
-    printf ("Digite o Pib:");
+    printf ("Digite o pib da cidade:");
     scanf ("%f"), &pib01;
 
     printf ("Digite a quantidade de pontos turisticos:");
     scanf ("%d"), &pontos_turisticos01;
+
+    //Solicitação para o usuário, segunda carta.
+    printf ("Digite os dados da segunda carta:");
+
+    printf ("Digite o nome do estado:");
+    scanf ("%c"), &estado01;
+
+    printf ("Digite o codigo da carta:");
+    scanf ("%s"), &codigo02;
+
+    printf ("Digite o nome da cidade:");
+    scanf ("%s"), &cidade02;
+
+    printf ("Digite a quantidade da populacao:");
+    scanf ("%d"), &populacao02;
+
+    printf ("Digite a area em km²:");
+    scanf ("%f"), &area02;
+
+    printf ("Digite o pib da cidade:");
+    scanf ("%f"), &pib02;
+
+    printf("Digite a quantidade de pontos turisticos:");
+    scanf("%d"), &pontos_turisticos02;
+
     
 
 
