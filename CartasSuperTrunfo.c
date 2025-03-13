@@ -1,5 +1,6 @@
 #include <stdio.h>
 int main() {
+     // Desafio Super Trunfo em C
     //Variáveis para a primeira carta.
     char estado01;
     char codigo01[4];
@@ -19,51 +20,49 @@ int main() {
     int pontos_turisticos02;
 
     //Solicitação dos dados para o usuário, primeira carta.
-    printf ("Digite os dados da primeira carta: \n");
 
-    printf ("Digite o nome do estado:");
+    printf ("Digite o nome do estado: \n");
     scanf ("%c", &estado01);
 
-    printf ("Digite o codigo da carta:");
+    printf ("Digite o codigo da carta: \n");
     scanf ("%s", &codigo01);
 
-    printf ("Digite o nome da cidade:");
+    printf ("Digite o nome da cidade: \n");
     scanf ("%s"), &cidade01;
 
-    printf ("Digite a quantidade da populacao:");
+    printf ("Digite a quantidade da populacao: \n");
     scanf ("%d"), &populacao01;
     
-    printf ("Digite a area em km²:");
+    printf ("Digite a area em km²: \n");
     scanf ("%f"), &area01;
 
-    printf ("Digite o pib da cidade:");
+    printf ("Digite o pib da cidade: \n");
     scanf ("%f"), &pib01;
 
-    printf ("Digite a quantidade de pontos turisticos:");
+    printf ("Digite a quantidade de pontos turisticos: \n");
     scanf ("%d"), &pontos_turisticos01;
 
     //Solicitação para o usuário, segunda carta.
-    printf ("Digite os dados da segunda carta:");
 
-    printf ("Digite o nome do estado:");
+    printf ("Digite o nome do estado: \n");
     scanf ("%c"), &estado01;
 
-    printf ("Digite o codigo da carta:");
+    printf ("Digite o codigo da carta: \n");
     scanf ("%s"), &codigo02;
 
-    printf ("Digite o nome da cidade:");
+    printf ("Digite o nome da cidade: \n");
     scanf ("%s"), &cidade02;
 
-    printf ("Digite a quantidade da populacao:");
+    printf ("Digite a quantidade da populacao: \n");
     scanf ("%d"), &populacao02;
 
-    printf ("Digite a area em km²:");
+    printf ("Digite a area em km²: \n");
     scanf ("%f"), &area02;
 
-    printf ("Digite o pib da cidade:");
+    printf ("Digite o pib da cidade: \n");
     scanf ("%f"), &pib02;
 
-    printf("Digite a quantidade de pontos turisticos:");
+    printf("Digite a quantidade de pontos turisticos: \n");
     scanf("%d"), &pontos_turisticos02;
 
     
