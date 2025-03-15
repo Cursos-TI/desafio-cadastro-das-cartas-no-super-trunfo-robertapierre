@@ -2,24 +2,23 @@
 int main() {
  
    //Variáveis para a primeira carta.
-   char estado01 ='Ceará';
+   char estado01 ='A';
    char codigo01[4]= "A01";
-   char cidade01[50]= "Fortaleza";
-   int populacao01 = 2400000;
-   float area01 = 312353;
-   float pib01 = 73000000;
-   int pontos_turisticos01= 50;
-
+   char cidade01[50];
+   int populacao01;
+   float area01;
+   float pib01;
+   int pontos_turisticos01;
 
 
    //Váriaveis para a segunda carta.
-   char estado02 = 'Bahia';
+   char estado02 = 'B';
    char codigo02[4] = "B02";
-   char cidade02[50]= "Salvador";
-   int populacao02= 2000000;
-   float area02= 693000;
-   float pib02= 62000000;
-   int pontos_turisticos02= 40;
+   char cidade02[50];
+   int populacao02;
+   float area02;
+   float pib02;
+   int pontos_turisticos02;
 
    //Solicitação dos dados para o usuário, primeira carta.
    printf ("Digite os dados da primeira carta:");
@@ -51,10 +50,10 @@ printf ("Digite o nome do estado:");
 scanf ("%c"), &estado02;
 
 printf ("Digite o codigo da carta:");
-scanf ("%c"), &codigo02;
+scanf ("%s"), &codigo02;
 
 printf ("Digite o nome da cidade:");
-scanf ("%c"), &cidade02;
+scanf ("%s"), &cidade02;
 
 printf ("Digite a quantidade da populacao:");
 scanf ("%d"), &populacao02;
