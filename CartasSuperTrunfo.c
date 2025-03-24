@@ -26,6 +26,7 @@ int main() {
    float percapita02;
 
 
+
    //Solicitação dos dados para o usuário, primeira carta.
    printf ("Digite os dados da primeira carta:");
 
@@ -53,33 +54,47 @@ int main() {
    printf ("Digite a densidade populacional:\n");
    scanf("%f", &densidade01);
 
-   printf ("Digite o Pib Per Capita:\n")
-   scanf ("%f", &percapita01)
-
-   printf ()
+   printf ("Digite o Pib Per Capita:\n");
+   scanf ("%f", &percapita01);
+   
+   //Cálculo para densidade populacional primeira carta
+   float divisao= populacao01 / area01;
+   //Cálculo pib per capita primeira carta
+   float divisao= pib01 / populacao01;
    
 //Solicitação para o usuário, segunda carta.
 
 printf ("Digite o nome do estado:");
-scanf ("%c"), &estado02;
+scanf ("%c", &estado02);
 
 printf ("Digite o codigo da carta:");
-scanf ("%s"), &codigo02;
+scanf ("%s", &codigo02);
 
 printf ("Digite o nome da cidade:");
-scanf ("%s"), &cidade02;
+scanf ("%s", &cidade02);
 
 printf ("Digite a quantidade da populacao:");
-scanf ("%d"), &populacao02;
+scanf ("%d", &populacao02);
 
 printf ("Digite a area em km²:");
-scanf ("%f"), &area02;
+scanf ("%f", &area02);
 
 printf ("Digite o pib da cidade:");
-scanf ("%f"), &pib02;
+scanf ("%f", &pib02);
 
 printf("Digite a quantidade de pontos turisticos:");
-scanf("%d"), &pontos_turisticos02;
+scanf("%d", &pontos_turisticos02);
+
+printf("Digite a densidade populacional:");
+scanf ("%f", &densidade02);
+
+printf ("Digite o Pib Per Capita:");
+scanf ("%f", &percapita02);
+
+ //Cálculo para densidade populacional segunda carta
+ float divisao= populacao02 / area02;
+ //Cálculo para pib per capita segunda carta
+ float divisao= pib02 / populacao02;
 
 
 
