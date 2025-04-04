@@ -11,7 +11,7 @@ int main() {
    int pontos_turisticos01;
    float densidade01;
    float percapita01;
-   float resultado01;
+   float superpoder01;
 
    //Váriaveis para a segunda carta.
    char estado02 = 'B'; // O estado pode ser apenas um caractere
@@ -23,7 +23,7 @@ int main() {
    int pontos_turisticos02;
    float densidade02;
    float percapita02;
-   float resultado02;
+   float superpoder02;
 
    // Solicitação dos dados para o usúario, primeira carta.
    printf("Digite os dados da primeira carta:\n");
@@ -64,6 +64,17 @@ int main() {
     percapita01 = pib01 / populacao01;
     printf("PIB per capita: %.2f\n", percapita01);
 
+    // Cálculo do Super Poder
+    superpoder01 = populacao01 + area01 + pib01 + pontos_turisticos01 + densidade01 + percapita01;
+
+    // Exibir o Cálculo do Super Poder
+    printf("Cálculo do SuperPoder:\n");
+    printf("SuperPoder da cidade %s (Estado %c, Código %s): %.2f\n", cidade01, estado01, codigo01, superpoder01);
+
+    
+
+
+
     //Solicitação dos dados para o usuário, segunda carta.
     printf("Digite os dados da segunda carta:\n");
 
@@ -103,5 +114,9 @@ int main() {
     percapita02 = pib02 / populacao02;
     printf("PIB per capita: %.2f\n", percapita02);
 
-    return 0;
+    // Calculo Super Poder
+    superpoder02 = populacao02 + area02 + pib02 + pontos_turisticos02 + percapita02 + densidade02;
+
+
+return 0;
 }
