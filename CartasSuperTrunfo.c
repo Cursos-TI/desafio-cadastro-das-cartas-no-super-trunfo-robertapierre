@@ -5,7 +5,7 @@ int main() {
    char estado01 ='A'; // O estado pode ser apenas um caractere
    char codigo01[4]= "A01"; // Tamanho suficiente para armazenar 4 caracteres e o '\0'
    char cidade01[50]; // Nome da cidade com até 49 caracteres
-   int populacao01;
+   unsigned long int populacao01;
    float area01;
    float pib01;
    int pontos_turisticos01;
@@ -17,7 +17,7 @@ int main() {
    char estado02 = 'B'; // O estado pode ser apenas um caractere
    char codigo02[4] = "B02"; // Tamanho suficiente para armazenar 4 caracteres e o '\0'
    char cidade02[50]; // Nome da cidade com até 49 caracteres
-   int populacao02;
+   unsigned long int populacao02;
    float area02;
    float pib02;
    int pontos_turisticos02;
@@ -42,7 +42,7 @@ int main() {
 
     // Leitura da população
     printf("Digite a quantidade da população:\n");
-    scanf("%d", &populacao01);
+    scanf("%lu", &populacao01);
 
     // Leitura da área
     printf("Digite a área em km²:\n");
@@ -81,7 +81,7 @@ int main() {
 
     // Leitura da população
     printf("Digite a quantidade da população:\n");
-    scanf("%d", &populacao02);
+    scanf("%lu", &populacao02);
 
     // Leitura da área
     printf("Digite a área em km²:\n");
