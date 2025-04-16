@@ -117,6 +117,14 @@ int main() {
     // Calculo Super Poder
     superpoder02 = populacao02 + area02 + pib02 + pontos_turisticos02 + percapita02 + densidade02;
 
+    // Comparação da carta população
+    if (populacao01 > populacao02) {
+        printf ("A população01 é maior que a população02\n");
+    } else {
+        printf ("A populção 01 é menor que a população 02\n");
+    }
+
+
 
 return 0;
 }
